@@ -1,0 +1,33 @@
+:root{
+    font-family:sans-serif;
+}
+
+#userList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.userListItem{
+    width: 200px;
+    margin:20px;
+    border: 2px solid red;
+    text-align:center;
+    border-radius: 5px;
+}
+
+.userListItem > img{
+    border-radius: 50%;
+}
+.userFullName{
+    margin: 15px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonContainer > button{
+    margin: 10px;
+}
